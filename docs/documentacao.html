@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Documentação do projeto Portfólio Igor Souza de Almeida." />
+    <title>Documentação | Igor Souza de Almeida</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="documentation-page">
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Navegação da documentação">
+        <a class="brand" href="../index.html#inicio" aria-label="Voltar ao portfólio">
+          <span class="brand-mark" aria-hidden="true">ISA</span>
+          <span class="brand-text">
+            <strong>Igor Souza</strong>
+            <small>Java • Arquitetura</small>
+          </span>
+        </a>
+        <div class="doc-nav-actions">
+          <a class="button button-secondary" href="../index.html#documentacao">Voltar ao portfólio</a>
+          <a class="button button-primary" href="documentacao.md" download>Baixar Markdown</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="documentation-main">
+      <article class="documentation-content">
+        <header class="documentation-heading">
+          <p class="section-label">Documentação do projeto</p>
+          <h1>Portfólio Igor Souza de Almeida</h1>
+          <p class="documentation-lead">
+            Registro dos requisitos, decisões, histórias de usuário, MVP e backlog que orientaram a
+            construção do portfólio.
+          </p>
+        </header>
+
+        <section>
+          <h2>1. Definição do projeto</h2>
+          <dl class="documentation-facts">
+            <div><dt>Nome do projeto</dt><dd>Portfólio Igor Souza de Almeida</dd></div>
+            <div><dt>Aluno</dt><dd>Igor Souza de Almeida</dd></div>
+            <div><dt>GU</dt><dd>GU3079775</dd></div>
+            <div><dt>Público-alvo</dt><dd>Professor avaliador, colegas, recrutadores e pessoas interessadas nos projetos públicos.</dd></div>
+            <div><dt>Objetivo principal</dt><dd>Apresentar Igor como desenvolvedor Java júnior na Reply, com foco em arquitetura de software, sistemas distribuídos e backend.</dd></div>
+          </dl>
+          <h3>Problema ou necessidade atendida</h3>
+          <p>Criar um portfólio pessoal para uma atividade acadêmica, demonstrando perfil profissional, competências técnicas, projetos e documentação do processo de desenvolvimento orientado por requisitos.</p>
+          <h3>Proposta visual</h3>
+          <p>Interface limpa, profissional e técnica, inspirada em diagramas de arquitetura. A proposta usa fundo claro, grid sutil, tipografia forte, foto de perfil, elementos visuais de fluxo de sistema e acentos em verde, ciano e âmbar.</p>
+          <h3>Conteúdo apresentado</h3>
+          <ul>
+            <li>Identificação e apresentação pessoal.</li>
+            <li>Experiência na Reply e na Volpix Sistemas.</li>
+            <li>Formação no IFSP e na ETEC de Guarulhos.</li>
+            <li>Competências em backend, arquitetura, cloud, mensageria e bancos SQL/NoSQL.</li>
+            <li>Estudos de caso dos projetos Cloud Api Integrations, POS Updater e Micro Chat Ecosystem.</li>
+            <li>Hobbies, viagens e links de contato.</li>
+          </ul>
+          <h3>Principais funcionalidades</h3>
+          <ul>
+            <li>Navegação por âncoras e menu responsivo.</li>
+            <li>Filtro de estudos de caso por tecnologia.</li>
+            <li>Modal de detalhes para cada projeto.</li>
+            <li>Alternância de tema claro/escuro.</li>
+            <li>Cópia do e-mail e links reais para repositórios, GitHub, LinkedIn e documentação.</li>
+          </ul>
+          <h3>Tecnologias utilizadas</h3>
+          <p>HTML5 semântico, CSS3 puro, JavaScript puro e assets locais para avatar e conceitos visuais.</p>
+        </section>
+
+        <section>
+          <h2>2. Prompts utilizados</h2>
+          <div class="documentation-table-wrap">
+            <table>
+              <thead><tr><th>ID</th><th>Objetivo</th><th>Resultado e decisão</th></tr></thead>
+              <tbody>
+                <tr><td>P01</td><td>Entender a atividade</td><td>Levantamento dos requisitos obrigatórios. Projeto mantido apenas com HTML, CSS e JavaScript.</td></tr>
+                <tr><td>P02</td><td>Levantar conteúdo dos projetos</td><td>Síntese dos três projetos, validada com READMEs e metadados públicos.</td></tr>
+                <tr><td>P03</td><td>Criar direção visual</td><td>Direção baseada em grid técnico, foto de perfil e diagramas; textos foram corrigidos no HTML.</td></tr>
+                <tr><td>P04</td><td>Planejar implementação</td><td>Plano com hero, sobre, trajetória, projetos, documentação, pessoal e contato.</td></tr>
+                <tr><td>P05</td><td>Verificar entrega</td><td>Checklist de links, botões, filtros, modal, tema e navegação.</td></tr>
+                <tr><td>P06</td><td>Atualizar dados pessoais</td><td>Atualização da experiência profissional, GU, hobbies, viagens e contatos com base nas informações mais recentes.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2>3. Histórias de usuário</h2>
+          <ol class="documentation-list">
+            <li><strong>US01:</strong> Como visitante, quero visualizar a identificação e apresentação de Igor para entender rapidamente quem ele é e qual seu foco profissional.</li>
+            <li><strong>US02:</strong> Como visitante, quero consultar formação, experiência e competências para avaliar o repertório técnico do aluno.</li>
+            <li><strong>US03:</strong> Como visitante, quero explorar estudos de caso para conhecer decisões arquiteturais e tecnologias utilizadas.</li>
+            <li><strong>US04:</strong> Como visitante, quero acessar contatos e perfis profissionais para continuar a conversa fora do portfólio.</li>
+            <li><strong>US05:</strong> Como professor avaliador, quero navegar pelo portfólio em desktop e mobile para verificar usabilidade e responsividade.</li>
+            <li><strong>US06:</strong> Como visitante, quero alternar o tema da interface para escolher uma leitura confortável.</li>
+            <li><strong>US07:</strong> Como professor avaliador, quero acessar a documentação para verificar requisitos, MVP, priorização e backlog.</li>
+            <li><strong>US08:</strong> Como visitante, quero ver interesses pessoais, hobbies e viagens para conhecer também o lado humano do aluno.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>4. Critérios de aceitação</h2>
+          <div class="documentation-table-wrap">
+            <table>
+              <thead><tr><th>História</th><th>Critérios objetivos</th></tr></thead>
+              <tbody>
+                <tr><td>US01</td><td>Exibir nome completo, cargo, empresa, foco em arquitetura, foto e CTAs.</td></tr>
+                <tr><td>US02</td><td>Conter seção sobre, competências e trajetória com IFSP, ETEC, Volpix e Reply.</td></tr>
+                <tr><td>US03</td><td>Listar os três projetos com título, descrição, tecnologias, links e modal específico.</td></tr>
+                <tr><td>US04</td><td>Conter e-mail, GitHub, LinkedIn e botão funcional para copiar o e-mail.</td></tr>
+                <tr><td>US05</td><td>Navegação por âncoras, menu mobile e layout legível em telas menores.</td></tr>
+                <tr><td>US06</td><td>Tema claro/escuro alternável com preferência salva no navegador.</td></tr>
+                <tr><td>US07</td><td>Documentação disponível em formato HTML e Markdown.</td></tr>
+                <tr><td>US08</td><td>Exibir hobbies com plantas, natureza e música, além das viagens para RS, MS e Uruguai.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2>5. Priorização MoSCoW</h2>
+          <div class="priority-grid">
+            <article><strong>Must have</strong><p>US01, US03, US04, US05 e US07: identificação, projetos, contato, responsividade e documentação são essenciais.</p></article>
+            <article><strong>Should have</strong><p>US02 e US06: formação, experiência, competências e tema melhoram a avaliação e a experiência.</p></article>
+            <article><strong>Could have</strong><p>US08: hobbies e viagens enriquecem o perfil, embora não sejam essenciais para a avaliação técnica.</p></article>
+            <article><strong>Won't have now</strong><p>Formulário com backend, blog, demonstrações publicadas e integração dinâmica com a API do GitHub.</p></article>
+          </div>
+        </section>
+
+        <section>
+          <h2>6. Descrição do MVP</h2>
+          <p>O MVP consiste em uma página estática, executável em navegador, com as seções necessárias para apresentar Igor e demonstrar a transformação dos requisitos em uma aplicação funcional.</p>
+          <ul>
+            <li>Apresentar identidade, cargo, foco técnico e proposta profissional.</li>
+            <li>Exibir competências, trajetória, formação, idiomas, hobbies e viagens.</li>
+            <li>Mostrar os três estudos de caso com filtragem e detalhes em modal.</li>
+            <li>Disponibilizar links de contato e documentação.</li>
+            <li>Funcionar em desktop e mobile.</li>
+          </ul>
+          <p><strong>Condição de conclusão:</strong> todos os links e botões visíveis devem funcionar, as histórias Must have devem estar implementadas e a página deve permanecer legível em telas móveis.</p>
+        </section>
+
+        <section>
+          <h2>7. Backlog acionável</h2>
+          <div class="documentation-table-wrap">
+            <table>
+              <thead><tr><th>ID</th><th>Item</th><th>Prioridade</th><th>Status</th></tr></thead>
+              <tbody>
+                <tr><td>BL01</td><td>Criar estrutura de pastas portfolio</td><td>Must have</td><td>Concluído</td></tr>
+                <tr><td>BL02</td><td>Implementar cabeçalho e navegação</td><td>Must have</td><td>Concluído</td></tr>
+                <tr><td>BL03</td><td>Criar seção inicial de apresentação</td><td>Must have</td><td>Concluído</td></tr>
+                <tr><td>BL04-BL05</td><td>Criar seção sobre, competências e trajetória</td><td>Should have</td><td>Concluído</td></tr>
+                <tr><td>BL06-BL08</td><td>Implementar projetos, filtros e modal</td><td>Must have</td><td>Concluído</td></tr>
+                <tr><td>BL09</td><td>Criar seção e página de documentação</td><td>Must have</td><td>Concluído</td></tr>
+                <tr><td>BL10-BL12</td><td>Criar contato, tema e seção pessoal</td><td>Must/Should/Could</td><td>Concluído</td></tr>
+                <tr><td>BL13-BL14</td><td>Escrever README e validar responsividade</td><td>Must have</td><td>Concluído</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2>8. Fontes consultadas</h2>
+          <ul>
+            <li>Enunciado da atividade e currículo fornecido pelo aluno.</li>
+            <li>Correções fornecidas em 23/08/2026.</li>
+            <li><a href="https://github.com/igordevnet" target="_blank" rel="noreferrer">Perfil GitHub</a> e <a href="https://www.linkedin.com/in/igor-souza-de-almeida-1857b02b8/?locale=en" target="_blank" rel="noreferrer">LinkedIn</a>.</li>
+            <li><a href="https://github.com/igordevnet/Cloud-Api-Integrations" target="_blank" rel="noreferrer">Cloud Api Integrations</a>, <a href="https://github.com/igordevnet/pos-updater-server" target="_blank" rel="noreferrer">POS Updater</a> e <a href="https://github.com/igordevnet/micro-chat-ecosystem" target="_blank" rel="noreferrer">Micro Chat Ecosystem</a>.</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      const savedTheme = localStorage.getItem("portfolio-theme");
+      if (savedTheme) document.body.dataset.theme = savedTheme;
+    </script>
+  </body>
+</html>
