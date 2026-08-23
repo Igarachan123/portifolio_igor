@@ -87,4 +87,4 @@ Ainda não informada. Caso o professor solicite publicação, este projeto pode 
 
 ## Dados a complementar antes da entrega final
 
-- Link publicado, caso exista.
+- [Link publicado](https://igarachan123.github.io/portifolio_igor/)
